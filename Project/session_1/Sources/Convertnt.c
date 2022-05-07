@@ -1,5 +1,4 @@
 #include "..\Headers\Convertnt.h"
-
 void dec_to_bin(int dec){
     int count = 0;
     int bin[8];
