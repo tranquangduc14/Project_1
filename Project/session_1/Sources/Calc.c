@@ -29,6 +29,6 @@ int min(int arr[], int size){
 
 int ViTri(int arr[], int size, int x){
     for(int i=0;i<size;i++)
-        if(a[i]==x)
+        if(arr[i]==x)
             return i;
 }
