@@ -8,4 +8,6 @@ int max(int arr[], int size);
 
 int min(int arr[], int size);
 
+int ViTri(int arr[], int size, int x);
+
 #endif
