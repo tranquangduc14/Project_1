@@ -5,6 +5,8 @@
 
 int size = 20;      //Calc
 
+int x ;
+
 int arr[]= { 6, 8, 7, 9, 14, 33, 25, 48, 98, 11, 2, 9, 1, 4, 7, 6, 5, 65, 2, 4 };   //Calc
 
 int a[100] ;    //m_string
@@ -22,6 +24,12 @@ int main(int argc, char const *argv[]){
     printf("max = %d\n",max(arr,size));
 
     printf("min = %d\n",min(arr,size));
+
+    printf("Nhap so can tim:");
+
+    scanf("%d",&x);
+
+    printf("Vi tri thu : %d",ViTri(arr,size,x))
 
     NhapMang1(a,n);
 
